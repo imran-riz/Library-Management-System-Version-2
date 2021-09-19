@@ -3,7 +3,7 @@
 A system that allows to maintain a record of the library. This is an updated system of the version 1 that I had made earlier.
 
 In this system there are 3 levels of access.
-    1. Member
+    1. Member \n
     2. Librarian
     3. Administrator
 
