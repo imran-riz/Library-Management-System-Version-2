@@ -29,11 +29,11 @@ Further features to be implemented:
 ### Format of the database
 
 The database has 5 tables:
-1. tbl_members(**MemberID**, FirstName, LastName, Username, Password, Salt, DateOfBirth, Email, Phone, Address, DateCreated)
-2. tbl_librarians(**LibrarianID**, FirstName, LastName, Username, Password, Salt, Email, Phone, DateOfBirth, NIC, Address, DateCreated)
-3. tbl_admins(**AdminID**, FirstName, LastName, Username, Password, Salt, Email, Phone, DateOfBirth, NIC, Address, DateCreated)
-4. tbl_books(**BookID**, Title, Author, ISBN, Publisher, Category, TotalCopies, CopiesAvailable)
-5. tbl_bookrecords(**RefNum**, AccountID, AccountType, BookID, ReservedDate, CancellationDate, IssuedDate, DueDate, ReturnSentOnDate, ReturnedDate)
+1. tbl_members (**MemberID**, FirstName, LastName, Username, Password, Salt, DateOfBirth, Email, Phone, Address, DateCreated)
+2. tbl_librarians (**LibrarianID**, FirstName, LastName, Username, Password, Salt, Email, Phone, DateOfBirth, NIC, Address, DateCreated)
+3. tbl_admins (**AdminID**, FirstName, LastName, Username, Password, Salt, Email, Phone, DateOfBirth, NIC, Address, DateCreated)
+4. tbl_books (**BookID**, Title, Author, ISBN, Publisher, Category, TotalCopies, CopiesAvailable)
+5. tbl_bookrecords (**RefNum**, AccountID, AccountType, BookID, ReservedDate, CancellationDate, IssuedDate, DueDate, ReturnSentOnDate, ReturnedDate)
 
 Note: 
 - The primary key for each table is in bold. 
