@@ -1,0 +1,153 @@
+#center_anchor_pane
+{
+    -fx-background-image: url("/memberapp/resources/images/Background0.jpg") ;
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+
+#sign_out_btn_style
+{
+    -fx-background-color: black ;
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 14px ;
+    -fx-text-fill: white ;
+}
+
+#sub_header_style
+{
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-font-size: 25px ;
+    -fx-text-fill: white ;
+}
+
+#instruction_style
+{
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 15px ;
+    -fx-text-fill: white ;
+}
+
+.tree-view .tree-cell				/* to change the style of the TreeView and its Items */
+{
+	-fx-background-color: black ;
+	-fx-border-color: black;
+	-fx-font-family : "Comic Sans MS" ;
+	-fx-font-size : 17px ;
+	-fx-text-fill : white ;
+}
+
+.tree-view .tree-cell: focused
+{
+	-fx-background-color: orange ;
+	-fx-text-fill: white ;
+}
+
+.table-view
+{
+    -fx-background-color: #2e2e2e ;
+    -fx-border-color: black ;
+    -fx-font-family : "Comic Sans MS" ;
+}
+
+.table-view .column-header-background .filler
+{
+	-fx-background-color: transparent ;
+}
+
+.table-view .column-header-background
+{
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size : 13px ;
+    -fx-text-background-color: white ;
+    -fx-background-color: black ;
+}
+
+.table-view .column-header
+{
+    -fx-background-color: transparent ;
+}
+
+.table-view .table-cell
+{
+	-fx-border-color: #2e2e2e ;
+}
+
+.table-row-cell
+{
+	-fx-background-color : #2e2e2e ;
+	-fx-text-background-color : white ;
+	-fx-font-size : 12px ;
+}
+
+.table-row-cell:empty
+{
+	-fx-background-color: #2e2e2e ;
+}
+
+.table-row-cell:empty .table-cell
+{
+	-fx-border-width: 0px ;
+}
+
+.table-row-cell : hover
+{
+	-fx-background-color: orange ;
+	-fx-text-background-color: black ;
+}
+
+#header_style
+{
+    -fx-text-background-color: white ;
+    -fx-font-family: "MV Boli" ;
+    -fx-font-size: 35px ;
+    -fx-font-weight: bold ;
+}
+
+.choice-box
+{
+    -fx-background-color: black ;
+    -fx-mark-color: orange;             /* arrow color */
+}
+
+.choice-box .label                      /* the label in the Choice Box */
+{
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 13px ;
+    -fx-text-fill: white ;
+}
+
+.choice-box .context-menu               /* Background color of the whole context menu */
+{
+    -fx-background-color: black;
+}
+
+.choice-box .menu-item:focused
+{
+    -fx-background-color: orange;       /* Focused item background color in the list */
+}
+
+.choice-box .menu-item > .label
+{
+    -fx-text-fill: white;               /* Text color of non-focused items in the list */
+}
+
+.choice-box .menu-item:focused > .label
+{
+    -fx-text-fill: black;               /* Text color of focused item in the list */
+}
+
+.text-field
+{
+    -fx-background-color: black ;
+    -fx-text-fill: orange ;
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-font-size: 13px ;
+}
+
+.button
+{
+    -fx-background-color: orange ;
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-font-size: 13px ;
+    -fx-text-fill: black ;
+}

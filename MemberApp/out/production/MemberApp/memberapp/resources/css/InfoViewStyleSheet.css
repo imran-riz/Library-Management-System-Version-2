@@ -1,0 +1,41 @@
+.button
+{
+    -fx-background-color: orange ;
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 14px ;
+    -fx-text-fill: black ;
+}
+
+.text-field
+{
+    -fx-background-color: black ;
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-text-fill: orange ;
+    -fx-font-size: 13px ;
+}
+
+.label
+{
+    -fx-font-family: "Helvetica" ;
+    -fx-text-fill: white ;
+    -fx-font-size: 14px ;
+}
+
+#title_label_style
+{
+    -fx-font-family: "MV Boli" ;
+    -fx-font-size: 23px ;
+    -fx-font-weight: bold ;
+}
+
+#author_label_style
+{
+    -fx-font-family: "MV Boli" ;
+    -fx-font-size: 20px ;
+}
+
+#warning_style
+{
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-font-size: 15px ;
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memberapp.view.BookViewController">
+   <Label fx:id="titleLbl" alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" text="&lt;title goes here&gt;" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <font>
+         <Font size="23.0" />
+      </font>
+   </Label>
+   <Label fx:id="authorLbl" alignment="CENTER" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" text="&lt;author's name goes here&gt;" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0">
+      <font>
+         <Font size="19.0" />
+      </font>
+   </Label>
+   <VBox fx:id="vbox" alignment="CENTER" layoutX="250.0" layoutY="134.0" prefHeight="316.0" prefWidth="650.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="130.0">
+      <HBox fx:id="hbox1" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+         <Label fx:id="bookIDLbl" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="200.0" text="Book ID" textFill="WHITE" HBox.hgrow="NEVER">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <TextField fx:id="bookIDField" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="150.0" HBox.hgrow="NEVER">
+            <font>
+               <Font size="13.0" />
+            </font></TextField>
+      </HBox>
+      <HBox fx:id="hbox2" alignment="CENTER" layoutX="10.0" layoutY="70.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+         <Label fx:id="isbnLbl" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="100.0" text="ISBN" textFill="WHITE" HBox.hgrow="NEVER">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <TextField fx:id="isbnField" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="250.0" HBox.hgrow="NEVER">
+            <font>
+               <Font size="13.0" />
+            </font></TextField>
+      </HBox>
+      <HBox fx:id="hbox3" alignment="CENTER" layoutX="10.0" layoutY="280.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+         <Label fx:id="categoryLbl" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="100.0" text="Category" textFill="WHITE" HBox.hgrow="NEVER">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <TextField fx:id="categoryField" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="250.0" HBox.hgrow="NEVER">
+            <font>
+               <Font size="13.0" />
+            </font></TextField>
+      </HBox>
+      <HBox fx:id="hbox4" alignment="CENTER" layoutX="10.0" layoutY="310.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+         <Label fx:id="publisherLbl" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="100.0" text="Publisher" textFill="WHITE" HBox.hgrow="NEVER">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <TextField fx:id="publisherField" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="250.0" HBox.hgrow="NEVER">
+            <font>
+               <Font size="13.0" />
+            </font></TextField>
+      </HBox>
+      <HBox fx:id="hbox5" alignment="CENTER" layoutX="10.0" layoutY="325.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+         <Label fx:id="copiesAvailableLbl" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="200.0" text="Copies Available" textFill="WHITE" HBox.hgrow="NEVER">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <TextField fx:id="copiesAvailableField" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="150.0" HBox.hgrow="NEVER">
+            <font>
+               <Font size="13.0" />
+            </font></TextField>
+      </HBox>
+   </VBox>
+   <Button fx:id="reserveBookBtn" layoutX="270.0" layoutY="440.0" mnemonicParsing="false" onAction="#reserveBook" prefHeight="30.0" text="Reserve Book" AnchorPane.bottomAnchor="28.80000000000001">
+      <font>
+         <Font size="15.0" />
+      </font></Button>
+</AnchorPane>
