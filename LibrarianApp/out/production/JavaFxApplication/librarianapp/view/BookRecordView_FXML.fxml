@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarianapp.view.BookRecordViewController">
+    <Label fx:id="header" alignment="CENTER" layoutX="286.0" layoutY="22.0" prefHeight="60.0" text="BOOK RECORD" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <font>
+          <Font size="25.0" />
+        </font>
+    </Label>
+    <Pane fx:id="pane" layoutY="60.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0">
+        <Label fx:id="refNumLbl" layoutX="140.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="25.0" text="Ref. Num: ">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="bookIDLbl" layoutX="140.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="20.0" text="Book ID: ">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="titleLbl" layoutX="140.0" layoutY="90.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="25.0" text="Title: ">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="accountIDLbl" layoutX="140.0" layoutY="130.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="25.0" text="Account ID: ">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="nameLbl" layoutX="140.0" layoutY="160.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="25.0" text="Acct. Holder's Name:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="reservedOnLbl" layoutX="140.0" layoutY="205.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="25.0" text="Reserved On: ">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="cancelledOnLbl" layoutX="140.0" layoutY="235.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="25.0" text="Cancelled On:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="issuedOnLbl" layoutX="140.0" layoutY="265.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="25.0" text="Issued On: ">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="requestSentOnLbl" layoutX="140.0" layoutY="295.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="25.0" text="Request Sent On:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="returnedOnLbl" layoutX="140.0" layoutY="325.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="25.0" text="Returned On: ">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="reservedOnField" editable="false" layoutX="280.0" layoutY="205.0" prefWidth="120.0">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="cancelledOnField" editable="false" layoutX="280.0" layoutY="235.0" prefWidth="120.0">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="issuedOnField" editable="false" layoutX="280.0" layoutY="265.0" prefWidth="120.0">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="requestSentOnField" editable="false" layoutX="280.0" layoutY="295.0" prefWidth="120.0">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="returnedOnField" editable="false" layoutX="280.0" layoutY="325.0" prefWidth="120.0">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="accountIDField" editable="false" layoutX="392.0" layoutY="129.0" prefWidth="120.0">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="nameField" editable="false" layoutX="312.0" layoutY="160.0" prefWidth="200.0">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="refNumField" editable="false" layoutX="305.0" layoutY="20.0" prefWidth="120.0">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="bookIDField" editable="false" layoutX="305.0" layoutY="57.0" prefWidth="120.0">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="titleField" editable="false" layoutX="226.0" layoutY="90.0" prefWidth="200.0">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </TextField>
+    </Pane>
+</AnchorPane>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarianapp.view.EditProfileController">
+    <VBox fx:id="vbox" alignment="CENTER" layoutX="275.0" layoutY="150.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="70.0">
+      <HBox fx:id="hbox0" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="50.0" spacing="150.0">
+         <children>
+             <Label fx:id="header" alignment="CENTER" prefHeight="70.0" text="PROFILE">
+                 <font>
+                   <Font size="25.0" />
+                 </font>
+             </Label>
+            <Button fx:id="changePswrdBtn" mnemonicParsing="false" onAction="#changePassword" text="Change password">
+               <HBox.margin>
+                  <Insets top="15.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="20.0" />
+         </VBox.margin>
+      </HBox>
+        <HBox fx:id="hbox1" alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="librarianIDLbl" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" text="Librarian ID">
+                <font>
+                    <Font size="15.0" />
+                </font>
+            </Label>
+            <TextField fx:id="librarianIDField" alignment="CENTER" prefWidth="100.0" />
+        </HBox>
+        <HBox fx:id="hbox2" alignment="CENTER" layoutX="10.0" layoutY="197.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="firstNameLbl" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="100.0" text="First Name">
+                <font>
+                    <Font size="15.0" />
+                </font>
+            </Label>
+            <TextField fx:id="firstNameField" prefWidth="200.0" />
+        </HBox>
+        <HBox fx:id="hbox3" alignment="CENTER" layoutX="10.0" layoutY="228.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="lastNameLbl" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="100.0" text="Last Name">
+                <font>
+                    <Font size="15.0" />
+                </font>
+            </Label>
+            <TextField fx:id="lastNameField" prefWidth="200.0" />
+        </HBox>
+        <HBox fx:id="hbox4" alignment="CENTER" layoutX="10.0" layoutY="258.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="usernameLbl" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="100.0" text="Username">
+                <font>
+                    <Font size="15.0" />
+                </font>
+            </Label>
+            <TextField fx:id="usernameField" prefWidth="200.0" />
+        </HBox>
+        <HBox fx:id="hbox6" alignment="CENTER" layoutX="10.0" layoutY="319.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="emailLbl" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="100.0" text="Email">
+                <font>
+                    <Font size="15.0" />
+                </font>
+            </Label>
+            <TextField fx:id="emailField" prefWidth="200.0" />
+        </HBox>
+        <HBox fx:id="hbox7" alignment="CENTER" layoutX="10.0" layoutY="349.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="phoneLbl" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="100.0" text="Phone">
+                <font>
+                    <Font size="15.0" />
+                </font>
+            </Label>
+            <TextField fx:id="phoneField" prefWidth="200.0" />
+        </HBox>
+        <HBox fx:id="hbox8" alignment="CENTER" layoutX="10.0" layoutY="308.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="dobLbl" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" text="Date Of Birth">
+                <font>
+                    <Font size="15.0" />
+                </font>
+            </Label>
+            <TextField fx:id="dobField" prefWidth="150.0" />
+        </HBox>
+        <HBox fx:id="hbox9" alignment="CENTER" layoutX="10.0" layoutY="318.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="nicLbl" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="100.0" text="NIC Number">
+                <font>
+                    <Font size="15.0" />
+                </font>
+            </Label>
+            <TextField fx:id="nicField" prefWidth="200.0" />
+        </HBox>
+        <HBox fx:id="hbox10" alignment="CENTER" layoutX="10.0" layoutY="336.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="addressLbl" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="100.0" text="Address">
+                <font>
+                    <Font size="15.0" />
+                </font>
+            </Label>
+            <TextField fx:id="addressField" prefWidth="200.0" />
+        </HBox>
+        <HBox fx:id="hbox11" alignment="CENTER" layoutX="10.0" layoutY="354.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="dateCreatedLbl" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" text="Account Created On">
+                <font>
+                    <Font size="15.0" />
+                </font>
+            </Label>
+            <TextField fx:id="dateCreatedField" prefWidth="150.0" />
+        </HBox>
+        <Button fx:id="editOrSaveBtn" mnemonicParsing="false" onAction="#toggleState" prefWidth="75.0" text="EDIT">
+           <font>
+               <Font size="14.0" />
+           </font>
+         <VBox.margin>
+            <Insets top="35.0" />
+         </VBox.margin>
+        </Button>
+    </VBox>
+</AnchorPane>

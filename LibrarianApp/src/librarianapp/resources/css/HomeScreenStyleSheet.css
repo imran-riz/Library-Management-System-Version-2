@@ -1,0 +1,162 @@
+#root_anchor_pane_style
+{
+    -fx-background-color: #122333 ;
+}
+
+#main_header_style
+{
+    -fx-font-family: "MV Boli" ;
+    -fx-font-size: 35px ;
+    -fx-text-fill: #2eac68 ;
+}
+
+#menu_btn_style
+{
+    -fx-background-color: #2eac68 ;
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 15px ;
+    -fx-text-fill: white ;
+}
+
+#menu_option_style
+{
+    -fx-background-color: transparent ;
+    -fx-border-color: transparent ;
+    -fx-font-family: "Microsoft Sans Serif" ;
+    -fx-font-size: 14px ;
+    -fx-text-fill: white ;
+}
+
+#menu_option_style:hover
+{
+    -fx-background-color: #2eac68 ;
+}
+
+#menu_vbox_style
+{
+    -fx-background-color: black ;
+}
+
+.table-view
+{
+    -fx-background-color: #254058 ;
+    -fx-border-color: black ;
+    -fx-font-family : "Comic Sans MS" ;
+}
+
+.table-view .column-header-background .filler
+{
+	-fx-background-color: transparent ;
+}
+
+.table-view .column-header-background
+{
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size : 13px ;
+    -fx-text-background-color: white ;
+    -fx-background-color: black ;
+}
+
+.table-view .column-header
+{
+    -fx-background-color: transparent ;
+}
+
+.table-view .table-cell
+{
+	-fx-border-color: #254058 ;
+}
+
+.table-row-cell
+{
+	-fx-background-color : #254058 ;
+	-fx-text-background-color : white ;
+	-fx-font-size : 12px ;
+}
+
+.table-row-cell:empty
+{
+	-fx-background-color: #254058 ;
+}
+
+.table-row-cell:empty .table-cell
+{
+	-fx-border-width: 0px ;
+}
+
+.table-row-cell : hover
+{
+	-fx-background-color: #2eac68 ;
+	-fx-text-background-color: black ;
+}
+
+.choice-box
+{
+    -fx-background-color: black ;
+    -fx-mark-color: #2eac68;             /* arrow color */
+}
+
+.choice-box .label                      /* the label in the Choice Box */
+{
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 13px ;
+    -fx-text-fill: white ;
+}
+
+.choice-box .context-menu               /* Background color of the whole context menu */
+{
+    -fx-background-color: black;
+}
+
+.choice-box .menu-item:focused
+{
+    -fx-background-color: #2eac68;       /* Focused item background color in the list */
+}
+
+.choice-box .menu-item > .label
+{
+    -fx-text-fill: white;               /* Text color of non-focused items in the list */
+}
+
+.choice-box .menu-item:focused > .label
+{
+    -fx-text-fill: black;               /* Text color of focused item in the list */
+}
+
+.text-field
+{
+    -fx-background-color: #254058 ;
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-font-size: 13px ;
+    -fx-text-fill: white ;
+}
+
+#search_edit_print_btn_style
+{
+    -fx-background-color: black ;
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 15px ;
+    -fx-text-fill: #2eac68 ;
+}
+
+#header_style
+{
+    -fx-text-fill: white ;
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 24px ;
+}
+
+#instruction_style
+{
+    -fx-text-fill: #2eac68 ;
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-font-size: 15px ;
+}
+
+#change_password_btn_style
+{
+    -fx-background-color: black ;
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 14px ;
+    -fx-text-fill: #2eac68 ;
+}

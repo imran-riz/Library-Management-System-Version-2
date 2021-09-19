@@ -1,0 +1,36 @@
+.button
+{
+    -fx-background-color: black ;
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 13px ;
+    -fx-text-fill: white ;
+}
+
+.text-field
+{
+    -fx-background-color: black ;
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-font-size: 13px ;
+    -fx-text-fill: white ;
+}
+
+.label
+{
+    -fx-font-family: "Helvetica" ;
+    -fx-text-fill: black ;
+    -fx-font-size: 14px ;
+}
+
+#header_style
+{
+    -fx-font-family: "MV boli" ;
+    -fx-font-size: 25px ;
+    -fx-font-weight: bold ;
+}
+
+#warning_style
+{
+    -fx-text-fill: red ;
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-font-size: 15px ;
+}
