@@ -1,0 +1,63 @@
+.text-field
+{
+    -fx-background-color: #455d7a ;
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-font-size: 14px ;
+    -fx-text-fill: white ;
+}
+
+.label
+{
+    -fx-font-family: "Helvetica" ;
+    -fx-text-fill: black ;
+    -fx-font-size: 15px ;
+}
+
+.date-picker
+{
+    -fx-background-color: #455d7a ;
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-font-size: 14px ;
+    -fx-text-fill: white ;
+}
+
+.button
+{
+    -fx-background-color: black ;
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 14px ;
+    -fx-text-fill: red ;
+}
+
+#root_style
+{
+    -fx-background-color: #f95959 ;
+}
+
+#header_style
+{
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-font-size: 25px ;
+    -fx-text-fill: black;
+}
+
+#title_style
+{
+    -fx-font-family: "MV boli" ;
+    -fx-font-size: 26px ;
+    -fx-font-weight: bold ;
+    -fx-text-fill: black;
+}
+
+#author_style
+{
+    -fx-font-size: 20px ;
+    -fx-text-fill: black ;
+}
+
+#warning_style
+{
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-text-fill: red ;
+    -fx-font-size: 15px ;
+}

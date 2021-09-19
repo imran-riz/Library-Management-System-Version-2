@@ -1,0 +1,138 @@
+#root_style
+{
+    -fx-background-color: #455d7a ;
+}
+
+#main_header_style
+{
+    -fx-font-family: "MV Boli" ;
+    -fx-font-size: 37px ;
+    -fx-text-fill: white ;
+}
+
+#header_style
+{
+    -fx-text-fill: white ;
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 25px ;
+}
+
+#instruction_style
+{
+    -fx-text-fill: #2eac68 ;
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-font-size: 15px ;
+}
+
+#option_btn_style
+{
+    -fx-background-color: #f95959 ;
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-font-size: 20px ;
+    -fx-text-fill: black ;
+}
+
+#back_btn_style
+{
+    -fx-background-color: #f95959 ;
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 14px ;
+    -fx-text-fill: white ;
+}
+
+.table-view
+{
+    -fx-background-color: #233142 ;
+    -fx-border-color: black ;
+    -fx-font-family : "Comic Sans MS" ;
+}
+
+.table-view .column-header-background .filler
+{
+	-fx-background-color: transparent ;
+}
+
+.table-view .column-header-background
+{
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size : 14px ;
+    -fx-text-background-color: white ;
+    -fx-background-color: black ;
+}
+
+.table-view .column-header
+{
+    -fx-background-color: transparent ;
+}
+
+.table-view .table-cell
+{
+	-fx-border-color: #233142 ;
+}
+
+.table-row-cell
+{
+	-fx-background-color : #233142 ;
+	-fx-text-background-color : white ;
+	-fx-font-size : 13px ;
+}
+
+.table-row-cell:empty
+{
+	-fx-background-color: #233142 ;
+}
+
+.table-row-cell:empty .table-cell
+{
+	-fx-border-width: 0px ;
+}
+
+.table-row-cell : hover
+{
+	-fx-background-color: #f95959 ;
+	-fx-text-background-color: black ;
+}
+
+.choice-box
+{
+    -fx-background-color: black ;
+    -fx-mark-color: red ;             /* arrow color */
+}
+
+.choice-box .label                      /* the label in the Choice Box */
+{
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 13px ;
+    -fx-text-fill: white ;
+}
+
+.choice-box .context-menu               /* Background color of the whole context menu */
+{
+    -fx-background-color: black;
+}
+
+.choice-box .menu-item:focused
+{
+    -fx-background-color: red;       /* Focused item background color in the list */
+}
+
+.choice-box .menu-item > .label
+{
+    -fx-text-fill: white;               /* Text color of non-focused items in the list */
+}
+
+.text-field
+{
+    -fx-background-color: #233142 ;
+    -fx-font-family: "Comic Sans MS" ;
+    -fx-font-size: 13px ;
+    -fx-text-fill: white ;
+}
+
+.button
+{
+    -fx-background-color: black ;
+    -fx-font-family: "Helvetica" ;
+    -fx-font-size: 14px ;
+    -fx-text-fill: red ;
+}

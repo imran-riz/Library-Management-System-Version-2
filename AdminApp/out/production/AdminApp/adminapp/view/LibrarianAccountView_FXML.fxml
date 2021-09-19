@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="550.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adminapp.view.LibrarianAccountViewController">
+   <Label fx:id="header" alignment="CENTER" layoutX="286.0" layoutY="14.0" prefHeight="75.0" text="LIBRARIAN ACCOUNT DETAILS" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <font>
+         <Font size="23.0" />
+      </font>
+   </Label>
+   <VBox fx:id="vbox" alignment="CENTER" layoutX="250.0" layoutY="100.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="75.0">
+      <HBox fx:id="hbox1" alignment="CENTER" fillHeight="false" prefHeight="40.0" spacing="10.0">
+         <Label fx:id="idLbl" prefHeight="50.0" prefWidth="170.0" text="Librarian ID">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <TextField fx:id="idField" editable="false" prefWidth="100.0" />
+      </HBox>
+      <HBox fx:id="hbox2" alignment="CENTER" fillHeight="false" layoutX="10.0" layoutY="155.0" prefHeight="40.0" spacing="10.0">
+         <Label fx:id="firstNameLbl" prefHeight="50.0" prefWidth="75.0" text="First Name">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <TextField fx:id="firstNameField" editable="false" prefWidth="200.0" />
+      </HBox>
+      <HBox fx:id="hbox3" alignment="CENTER" fillHeight="false" layoutX="10.0" layoutY="180.0" prefHeight="40.0" spacing="10.0">
+         <Label fx:id="lastNameLbl" prefHeight="50.0" prefWidth="75.0" text="Last Name">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <TextField fx:id="lastNameField" editable="false" prefWidth="200.0" />
+      </HBox>
+      <HBox fx:id="hbox4" alignment="CENTER" fillHeight="false" layoutX="10.0" layoutY="205.0" prefHeight="40.0" spacing="10.0">
+         <Label fx:id="usernameLbl" prefHeight="50.0" prefWidth="75.0" text="Username">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <TextField fx:id="usernameField" editable="false" prefWidth="200.0" />
+      </HBox>
+      <HBox fx:id="hbox5" alignment="CENTER" fillHeight="false" layoutX="10.0" layoutY="231.0" prefHeight="40.0" spacing="10.0">
+         <Label fx:id="emailLbl" prefHeight="50.0" prefWidth="75.0" text="Email">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <TextField fx:id="emailField" editable="false" prefWidth="200.0" />
+      </HBox>
+      <HBox fx:id="hbox6" alignment="CENTER" fillHeight="false" layoutX="10.0" layoutY="256.0" prefHeight="40.0" spacing="10.0">
+         <Label fx:id="dobLbl" prefHeight="50.0" prefWidth="120.0" text="Date Of Birth">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <TextField fx:id="dobField" editable="false" prefWidth="160.0" />
+      </HBox>
+      <HBox fx:id="hbox7" alignment="CENTER" fillHeight="false" layoutX="10.0" layoutY="281.0" prefHeight="40.0" spacing="10.0">
+         <Label fx:id="phoneLbl" prefHeight="50.0" prefWidth="75.0" text="Phone">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <TextField fx:id="phoneField" editable="false" prefWidth="200.0" />
+      </HBox>
+      <HBox fx:id="hbox8" alignment="CENTER" fillHeight="false" layoutX="10.0" layoutY="283.0" prefHeight="40.0"
+            spacing="10.0">
+         <Label fx:id="nicLbl" prefHeight="50.0" prefWidth="75.0" text="NIC no.">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </Label>
+         <TextField fx:id="nicField" editable="false" prefWidth="200.0"/>
+      </HBox>
+      <HBox fx:id="hbox9" alignment="CENTER" fillHeight="false" layoutX="10.0" layoutY="302.0" prefHeight="40.0" spacing="10.0">
+         <Label fx:id="addressLbl" prefHeight="50.0" prefWidth="75.0" text="Address">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <TextField fx:id="addressField" editable="false" prefWidth="200.0" />
+      </HBox>
+      <HBox fx:id="hbox10" alignment="CENTER" fillHeight="false" layoutX="10.0" layoutY="308.0" prefHeight="40.0" spacing="10.0">
+         <Label fx:id="dateCreatedLbl" prefHeight="50.0" prefWidth="120.0" text="Date Created">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <TextField fx:id="dateCreatedField" editable="false" prefWidth="160.0" />
+      </HBox>
+   </VBox>
+</AnchorPane>

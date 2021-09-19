@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adminapp.view.AddLibrarianAcctController">
+   <children>
+      <Label fx:id="header" alignment="CENTER" layoutX="286.0" layoutY="5.0" prefHeight="75.0" text="CREATE A NEW LIBRARIAN ACCOUNT" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <VBox fx:id="vbox" alignment="CENTER" layoutX="250.0" layoutY="100.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="75.0">
+         <children>
+            <HBox fx:id="hbox0" alignment="CENTER" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label fx:id="firstNameLbl" prefWidth="120.0" text="First Name">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="firstNameField" prefWidth="200.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="hbox1" alignment="CENTER" layoutX="10.0" layoutY="152.0" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label fx:id="lastNameLbl" prefWidth="120.0" text="Last Name">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="lastNameField" prefWidth="200.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="hbox2" alignment="CENTER" layoutX="10.0" layoutY="172.0" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label fx:id="usernameLbl" prefWidth="120.0" text="Username">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="usernameField" prefWidth="200.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="hbox3" alignment="CENTER" layoutX="10.0" layoutY="192.0" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label fx:id="dobLbl" prefWidth="150.0" text="Date Of Birth">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <DatePicker fx:id="dobPicker" prefWidth="170.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="hbox4" alignment="CENTER" layoutX="10.0" layoutY="212.0" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label fx:id="nicLbl" prefWidth="120.0" text="NIC No.">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="nicField" prefWidth="200.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="hbox5" alignment="CENTER" layoutX="10.0" layoutY="232.0" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label fx:id="phoneLbl" prefWidth="120.0" text="Phone">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="phoneField" prefWidth="200.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="hbox6" alignment="CENTER" layoutX="10.0" layoutY="252.0" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label fx:id="emailLbl" prefWidth="120.0" text="Email">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="emailField" prefWidth="200.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="hbox7" alignment="CENTER" layoutX="10.0" layoutY="323.0" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label fx:id="addressLbl" prefWidth="120.0" text="Address">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="addressField" prefWidth="200.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button fx:id="createBtn" layoutX="250.0" layoutY="450.0" mnemonicParsing="false" onAction="#create" prefWidth="100.0" text="CREATE" AnchorPane.bottomAnchor="24.399999999999977" />
+   </children>
+</AnchorPane>
