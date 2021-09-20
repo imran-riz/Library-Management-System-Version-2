@@ -37,7 +37,7 @@ The database has 5 tables:
 
 Note: 
 - The primary key for each table is in bold. 
-- The field AccountID is not a foreign key of tbl_members, although it can be.
+- The field AccountID is not a foreign key of tbl_members, although it can be. If it were to be a foreign key, it will be called "MemberID" (reference, tbl_members).
 
 
 
