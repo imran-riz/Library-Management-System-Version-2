@@ -2,7 +2,7 @@
 
 A system that allows to maintain a record of the library. This is an updated system of the version 1 that I had made earlier.
 
-### The levels of access
+## The levels of access
 In this system there are 3 levels of access:
 1. Member
 2. Librarian
@@ -26,7 +26,7 @@ Further features to be implemented:
 
 
 
-### Format of the database
+## Format of the database
 
 The database has 5 tables:
 1. tbl_members (**MemberID**, FirstName, LastName, Username, Password, Salt, DateOfBirth, Email, Phone, Address, DateCreated)
@@ -41,7 +41,26 @@ Note:
 
 
 
-### Snapshots
+## Snapshots
+
+### The admin application
+![Screenshot (27)](https://user-images.githubusercontent.com/67403229/133976917-6fb51a9b-36fb-4ac0-a847-ec965aa2720a.png)
+![Screenshot (28)](https://user-images.githubusercontent.com/67403229/133976928-84bc9e3b-c695-4555-9ac1-f81fb3bf88ab.png)
+![Screenshot (29)](https://user-images.githubusercontent.com/67403229/133976933-1e460d7e-ba05-4029-b2e4-0dce4b63b213.png)
+
+
+
+### The librarian application
+![Screenshot (24)](https://user-images.githubusercontent.com/67403229/133976122-3cd166eb-4614-47b9-9851-6115603b0d93.png)
+![Screenshot (25)](https://user-images.githubusercontent.com/67403229/133976524-a59c0841-7f57-4eeb-9646-cc22b7fc35aa.png)
+![Screenshot (26)](https://user-images.githubusercontent.com/67403229/133976536-f887b46c-d2f2-410f-b17b-0f8c541c7dbe.png)
+
+
+### The member application
+![Screenshot (30)](https://user-images.githubusercontent.com/67403229/133977317-f32fbffe-fc39-487d-9fed-4b18de0b2b54.png)
+![Screenshot (31)](https://user-images.githubusercontent.com/67403229/133977329-f4af755f-85b2-4e62-9142-cf5a158b423a.png)
+![Screenshot (32)](https://user-images.githubusercontent.com/67403229/133977331-de6ae585-614f-4caa-8efe-a10cd1759142.png)
+
 
 
 
