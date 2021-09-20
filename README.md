@@ -1,6 +1,6 @@
 # Library-Management-System-Version-2
 
-A system that allows to maintain a record of the library. This is an updated system of the version 1 that I had made earlier.
+A system that allows to maintain a record of a library. This is an updated system of the version 1 that I had made earlier.
 
 ## The levels of access
 In this system there are 3 levels of access:
